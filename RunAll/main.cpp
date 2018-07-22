@@ -43,7 +43,7 @@ int main(){
 	TextBox tAddress(30);
 	tAddress.setValue("Land down under, 24");
 	tAddress.setBorder(BorderType::Double);
-	Combox cCountry(18, { "'Straya", "Dibjouti", "Greenland" });
+	Combox cCountry(18, { "'Straya", "Djibouti", "Greenland" });
 	cCountry.setSelectedIndex(1);
 	cCountry.setBorder(BorderType::Double);
 	RadioList rSex(2, 11, { "Dude", "Dudette" });
