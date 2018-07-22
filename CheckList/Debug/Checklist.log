@@ -1,0 +1,4 @@
+﻿  CheckList.cpp
+c:\users\omrif\documents\github\swgraphics\checklist\checklist.cpp(12): warning C4018: '<': signed/unsigned mismatch
+c:\users\omrif\documents\github\swgraphics\checklist\checklist.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  Checklist.vcxproj -> C:\Users\omrif\Documents\GitHub\SWGRAPHICS\Debug\CheckList.lib

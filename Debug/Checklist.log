@@ -1,0 +1,4 @@
+﻿  CheckList.cpp
+c:\users\omrif\desktop\classes new pc\techniques in sw\methodsinsoftwaretask3\checklist\checklist.cpp(12): warning C4018: '<': signed/unsigned mismatch
+c:\users\omrif\desktop\classes new pc\techniques in sw\methodsinsoftwaretask3\checklist\checklist.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  Checklist.vcxproj -> C:\Users\omrif\Desktop\classes new pc\Techniques in SW\MethodsInSoftwareTask3\Debug\CheckList.lib

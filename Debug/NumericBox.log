@@ -1,0 +1,3 @@
+﻿  NumericBox.cpp
+c:\users\omrif\documents\github\swgraphics\numericbox\numericbox.cpp(38): warning C4018: '<': signed/unsigned mismatch
+  NumericBox.vcxproj -> C:\Users\omrif\Documents\GitHub\SWGRAPHICS\Debug\NumericBox.lib

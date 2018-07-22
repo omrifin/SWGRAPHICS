@@ -1,0 +1,3 @@
+﻿  Combox.cpp
+c:\users\omrif\documents\github\swgraphics\combox\combox.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  Combox.vcxproj -> C:\Users\omrif\Documents\GitHub\SWGRAPHICS\Debug\Combox.lib

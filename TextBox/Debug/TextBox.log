@@ -1,0 +1,10 @@
+﻿  TextBox.cpp
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\textbox\textbox.cpp(7): warning C4018: '<': signed/unsigned mismatch
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\textbox\textbox.cpp(9): warning C4018: '>=': signed/unsigned mismatch
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\textbox\textbox.cpp(10): warning C4018: '<': signed/unsigned mismatch
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\textbox\textbox.cpp(16): warning C4018: '<=': signed/unsigned mismatch
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\textbox\textbox.cpp(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\textbox\textbox.cpp(26): warning C4018: '<=': signed/unsigned mismatch
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\textbox\textbox.cpp(32): warning C4018: '<=': signed/unsigned mismatch
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\textbox\textbox.cpp(47): warning C4018: '<=': signed/unsigned mismatch
+  Textbox.vcxproj -> C:\Users\Almog\Source\Repos\MethodsTask3\MethodsInSoftwareTask3\Debug\Textbox.lib

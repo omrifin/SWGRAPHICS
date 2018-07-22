@@ -1,0 +1,3 @@
+﻿  MessageBox.cpp
+c:\users\omrif\documents\github\swgraphics\messagebox\messagebox.cpp(43): warning C4018: '<': signed/unsigned mismatch
+  MessageBox.vcxproj -> C:\Users\omrif\Documents\GitHub\SWGRAPHICS\Debug\MessageBox.lib

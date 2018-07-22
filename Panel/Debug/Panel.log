@@ -1,0 +1,3 @@
+﻿  Panel.cpp
+c:\users\almog\source\repos\methodstask3\methodsinsoftwaretask3\panel\panel.cpp(43): warning C4101: 'e': unreferenced local variable
+  Panel.vcxproj -> C:\Users\Almog\Source\Repos\MethodsTask3\MethodsInSoftwareTask3\Debug\Panel.lib
