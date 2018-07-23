@@ -16,7 +16,7 @@ auto MsgBox = [](Control* c){
 
 int main(){
 	Label lTitle(20);
-	lTitle.setValue("Student");
+	lTitle.setValue("Order");
 	lTitle.setBorder(BorderType::Single);
 	lTitle.setForeground(Color::Red);
 	Label lName(10);
@@ -29,13 +29,13 @@ int main(){
 	lCountry.setValue("Country:");
 	lCountry.setBorder(BorderType::Double);
 	Label lSex(10);
-	lSex.setValue("Gender:");
+	lSex.setValue("Package:");
 	lSex.setBorder(BorderType::Double);
 	Label lInterests(10);
-	lInterests.setValue("Interests:");
+	lInterests.setValue("Type:");
 	lInterests.setBorder(BorderType::Double);
 	Label lAge(15);
-	lAge.setValue("Age:");
+	lAge.setValue("Floor:");
 	lAge.setBorder(BorderType::Double);
 	TextBox tName(30);
 	tName.setValue("Johannes Von Mizrahi");
@@ -46,14 +46,14 @@ int main(){
 	Combox cCountry(18, { "'Straya", "Djibouti", "Greenland" });
 	cCountry.setSelectedIndex(1);
 	cCountry.setBorder(BorderType::Double);
-	RadioList rSex(2, 11, { "Dude", "Dudette" });
-	rSex.setBorder(BorderType::Double);
-	CheckList clInterests(3, 10, { "Potato", "Potato1", "Potato2" });
-	clInterests.selectIndex(1);
-	clInterests.selectIndex(2);
-	auto v = clInterests.getSelectedIndices();
+	RadioList packType(2, 11, { "None", "Regular" });
+	packType.setBorder(BorderType::Double);
+	CheckList deliveryMethod(3, 10, { "Regular", "Express", "UPS" });
+	deliveryMethod.selectIndex(1);
+	deliveryMethod.selectIndex(2);
+	auto v = deliveryMethod.getSelectedIndices();
 	cCountry.getSelectedIndex();
-	clInterests.setBorder(BorderType::Double);
+	deliveryMethod.setBorder(BorderType::Double);
 	NumericBox nAge(15, 18, 120);
 	nAge.setValue(23);
 	nAge.setBorder(BorderType::Double);
@@ -78,8 +78,8 @@ int main(){
 	main.addControl(tName, 27, 6);
 	main.addControl(tAddress, 27, 10);
 	main.addControl(cCountry, 3, 18);
-	main.addControl(rSex, 26, 18);
-	main.addControl(clInterests, 41, 18);
+	main.addControl(packType, 26, 18);
+	main.addControl(deliveryMethod, 41, 18);
 	main.addControl(nAge, 57, 18);
 	main.addControl(bSubmit, (main.getWidth()*1/4) , 24);
 	main.addControl(bExit, (main.getWidth() * 3 / 5), 24);
